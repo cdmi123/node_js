@@ -9,7 +9,7 @@ var debug = require('debug')('mvc:server');
 var http = require('http');
 var mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://cdmi123:cdmi123@cluster0.rsmma9e.mongodb.net/8_to_10_live");
+mongoose.connect("mongodb+srv://jil:1234@cluster0.7tna3ap.mongodb.net/8_to_10_live");
 
 /**
  * Get port from environment and store in Express.
