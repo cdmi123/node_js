@@ -28,7 +28,7 @@ exports.insert = async (req,res) => {
 exports.get_data = async (req,res) => {
 
     var limit=4;
-    var total_record = await user.find().count();
+    var total_record = await user.find().countDocuments();
     var total_page = Math.ceil(total_record/limit);
     var page_no = req.query.page_no;
 
